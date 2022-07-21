@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: 100%;
+
+}
+
+p {
+    margin: 5px;
+    font-size: 19px;
+
+}
+.paletas_div{
+    margin-top: 5px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.paleta{
+    width: 30px;
+    height:30px;
+    margin: 8px;
+}
+
+#paleta1{
+    background-color: blue;
+}
+
+#paleta2{
+    background-color: yellow;
+}
+
+#paleta3{
+    background-color: green;
+}
+
+.quadro {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    margin-top: 0%;
+}
+
+.container {
+    width: 450px;
+    height: 570px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.poster {
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Informações APP*/
+
+.container_app{
+    text-align: center;
+}
+
+.nomeApp {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.descricaoApp1 {
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.descricaoApp2 {
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+}
+
+.input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buscarBt {
+    width: 380px;
+    height: 50px;
+    background-color: #DB202C;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/*Informações Filmes*/
+
+.poster {
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.informacoes_parte1 {
+    text-align: center;
+}
+
+.informacoes_parte2 {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.detalhes {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sinopse {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.msgErro {
+    color: red;
+}
