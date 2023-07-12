@@ -123,6 +123,7 @@ p {
     font-size: 20px;
     color: #ffffff;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 /*Informações Filmes*/
